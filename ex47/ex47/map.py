@@ -10,8 +10,6 @@ class Country(Area):
     def __init__(self, name, capital, area):
         self.__name = name
         self.__capital = capital
-        self.__population = population
-        self.__neighbors = neighbors
         super(Country, self).__init__(area)
 
     def getArea(self):
@@ -19,6 +17,10 @@ class Country(Area):
 
     def getCapital(self):
         return self.__capital
+
+    def setArea(self, new_area):
+        self.area = new_area
+        return self.area
 
     def describe(self):
         print "Name: " + self.__name
