@@ -1,6 +1,6 @@
 
-from nose2.tools import *
-import ex47.game
+from nose.tools import *
+from ex47.game import Room
 
 
 def test_room():

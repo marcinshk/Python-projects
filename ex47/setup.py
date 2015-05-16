@@ -18,7 +18,7 @@ config = {
           'download_url': 'https://github.com/marcinshk/Python-projects.git',
           'author_email': 'marcinshk@gmail.com',
           'version': '0.1',
-          'install_requires': ['nose2', 'setuptools', 'virtualenv'],
+          'install_requires': ['nose', 'setuptools', 'virtualenv'],
           'packages': ['ex47-pkg'],
           'scripts': [],
           'name': 'ex47'
